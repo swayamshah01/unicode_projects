@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+body{
+    background-color: #e1dede;
+}
+.nav-bar {
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.logo img{
+    height: 5em;
+}
+.items{
+    position: relative;
+    top: 15px;
+}
+
+.nav-items{
+    width: 371px;
+    height: 29px;
+    
+    padding: 20px;
+    font-family: Inter;
+    color:rgba(16, 26, 36, 1); 
+    font-size: 18px;
+
+}
+
+
+#review{
+    text-decoration: underline;
+    font-weight: 800;
+}
+a{
+    text-decoration: none;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: grey;
+}
+
+.book>button {
+    background-color: rgba(234, 109, 39, 1);
+    border: none;
+    border-radius: 10px 5px 10px 5px;
+    width: 118px;
+    height: 44px;
+    padding: 13px;
+    text-align: center;
+    color: white;
+    font-family: David Libre;
+    font-weight: 700;
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 28px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.image img{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: 25px;
+}
+main .r_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.r_text p{
+    height: 100px;
+    width: 550px;
+    text-align: center;
+    margin-top: 10px;
+}
+.reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+}
+.reviews .review{
+    height: 280px;
+    width: 500px;
+    padding: 15px;
+    position: relative;
+}
+.review{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 45px 10px ;
+    text-align: center;
+    font-size: 20px;
+}
+.review h4{
+    margin-top: 25px;
+}
+#first{
+    position: relative;
+    bottom: 70px;
+}
